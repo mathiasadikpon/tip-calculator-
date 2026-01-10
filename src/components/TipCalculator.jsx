@@ -1,6 +1,7 @@
 import { useSelector, useDispatch } from "react-redux";
 import { setBillAmount, setPercent } from "../features/tip/tipSlice";
 
+// Currency formatter
 const currency = new Intl.NumberFormat("en-US", {
   style: "currency",
   currency: "USD",
