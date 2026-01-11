@@ -16,6 +16,7 @@ export default function TipCalculator() {
   const tip = billAmount * percent;
   const total = billAmount + tip;
 
+  // JSX Return
   return (
     <div className="calculator-grid">
       {/* ROW 1 – EditText + overlay TextView */}
