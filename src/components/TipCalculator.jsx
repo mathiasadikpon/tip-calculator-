@@ -12,6 +12,7 @@ export default function TipCalculator() {
   const dispatch = useDispatch();
   const { billAmount, percent } = useSelector((state) => state.tip);
 
+  // Calculations
   const tip = billAmount * percent;
   const total = billAmount + tip;
 
