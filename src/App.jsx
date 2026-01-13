@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import InfoModal from "./components/InfoModal";
 import TipCalculator from "./components/TipCalculator";
 
+// Main App Component
 export default function App() {
   const [isInfoOpen, setIsInfoOpen] = useState(false);
 
