@@ -1,6 +1,7 @@
 import React from "react";
 import { Modal, ModalHeader, ModalBody, Button } from "reactstrap";
 
+// Info modal component
 export default function InfoModal({ isOpen, toggle }) {
   return (
     <Modal isOpen={isOpen} toggle={toggle}>
