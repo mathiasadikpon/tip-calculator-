@@ -3,6 +3,7 @@ import { Modal, ModalHeader, ModalBody, Button } from "reactstrap";
 
 // Info modal component
 export default function InfoModal({ isOpen, toggle }) {
+  // Render the modal with information about the app
   return (
     <Modal isOpen={isOpen} toggle={toggle}>
       <ModalHeader toggle={toggle}>Info</ModalHeader>
