@@ -25,6 +25,7 @@ export default function InfoModal({ isOpen, toggle }) {
           </li>
         </ul>
       </ModalBody>
+      {/* OK button to close the modal */}
       <div className="text-center mb-3">
         <Button color="info" onClick={toggle}>
           OK
