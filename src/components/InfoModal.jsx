@@ -8,6 +8,7 @@ export default function InfoModal({ isOpen, toggle }) {
     <Modal isOpen={isOpen} toggle={toggle}>
       <ModalHeader toggle={toggle}>Info</ModalHeader>
       <ModalBody>
+        // Description of the app
         <p>
           Use the spinner to select the number of people splitting the total.
           <br />
